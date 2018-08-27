@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>boad</title>
+	</head>
+	<body>
+		<header class="navbar navbar-fixed-top navbar-inverse">
+			<div class="navbar-inner">
+				<div class="container">
+					<%= link_to "kanban boad", '#', id: "logo" %>
+					<nav>
+						<ul class="nav pull-right">
+							<li><%= link_to "Home",    '#' %></li>
+							<li><%= link_to "Help",    '#' %></li>
+							<li><%= link_to "Sign in", '#' %></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<%= yield %>
+		</div>
+	</body>
+</html>
