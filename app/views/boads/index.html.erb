@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<title>boad</title>
 	</head>
@@ -19,7 +20,24 @@
 			</div>
 		</header>
 		<div class="container">
-			<%= yield %>
+			<div class="row">
+				<!-- side menu eria-->
+				<div class="col-xs-4">
+					<ul class="nav nav-pills nav-stacked">
+						<li class="active"><a ref="#">ダッシュボード</a></li>
+						<li><a ref="#">ダッシュボード2</a></li>
+					</ul>
+				</div>
+				<!-- main contents-->
+				<div class="col-xs-8">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<div class="">aaa</div>
+							<button type="button" class="btn btn-lg btn-primary" id="create_kanban">新しいかんばんを作成</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
