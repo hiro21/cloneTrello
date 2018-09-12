@@ -21,8 +21,11 @@
     </ul>
   </div>
 </nav>
+<%= form_tag({:controller => 'boads', :action => 'addList'}, :remote => true, :class => 'form-ajax') do -%>
 <input type="text" name="rale" id="rale"><br>
 <input type="button" name="raleBtn" id="raleBtn" value="リストを追加" style="display:none;">
+<%= submit_tag('Start Ajax', :class => 'btn btn-primary btn-sm') -%>
+<% end %>
 <script>
 $(function(){
 	$("#rale").focusin(function(){

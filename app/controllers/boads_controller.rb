@@ -5,4 +5,11 @@ class BoadsController < ApplicationController
 	end
 	def new
 	end
+	def addList
+		tmp = params[:rale]
+		puts tmp
+
+		# regist
+
+	end
 end
