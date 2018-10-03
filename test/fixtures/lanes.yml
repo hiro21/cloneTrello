@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  laneid: 1
+  boadid: 1
+  lanename: MyString
+
+two:
+  laneid: 1
+  boadid: 1
+  lanename: MyString
